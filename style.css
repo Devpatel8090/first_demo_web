@@ -1,0 +1,167 @@
+body {
+    color : F4F4F4;
+    margin: 0;
+    
+}
+.container {
+    width : 780px;
+    margin : 0 auto ;
+    background: #FFF ; 
+}
+.header {
+     padding: 45px 0 20px 40px ;
+    border: 2px solid black ; 
+    text-align: center
+  
+}
+.menu {
+    background: #3b7687;
+    padding: 6px 0 6px 40px; 
+}
+.menu a {
+  color : #c5d6db;
+    text-decoration: none;
+    font-size : 14px;
+    font-family: "Courier new", "Arial Narrow" ;
+}
+.menu a:hover {
+    color: #ecf2f3;
+
+    
+}
+aside{
+    float: left;
+    width: 15%;
+    padding: 30px 30px 0px 22px;
+}
+h1 { 
+margin: 0px ;
+color: #869843;
+font-size: 24px;
+font-family: "Courier new";
+font-weight: normal;
+}
+
+h2{
+    color : #3b7687;
+    font-size: 15px;
+    margin : 20px 0 5px 0 ; 
+    
+}
+
+.main {
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+}
+.main a:hover{
+    color: #444444;
+}
+footer {
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "courier new";
+    color: #444444;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+.header a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 24px
+    
+    ;
+    
+}
+#home-image{
+    width: 80%;
+    border: 1px solid black ;
+    
+}
+.seperator{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/*****************about page *****************/
+
+
+#about-page #home-image img{
+    width: 70%;
+    float : left;
+    margin-bottom: 20px;
+    
+}
+#about-page #profile-info{
+    width: 20%;
+    float : right;
+    margin-bottom: 5px;
+    
+}
+#about-page .discription{
+    clear : both;
+}
+/**************** contact page *****************/
+
+#contact #form {
+    width: 80%;
+   
+    padding: 10px 50px 10px 10px;
+    margin: 0 80px;
+    
+}
+.page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contact #form input{
+    width: 100%;
+     border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+    box-shadow: 0px 2px 2px 0px;
+    border-radius: 5px; 
+}
+#contact #form .message{
+    width:100%;
+    border-radius: 5px;
+    background: #D6D6D6;
+    
+    
+}
+#contact #form #submit{
+    height :30px;
+    background: rgb(59,118,135);
+}
+.container{
+    box-shadow: 0px 9px 13px 5px;
+}
+#contact aside{
+    float: left;
+    width: 20%;
+    padding: 30px 30px 0px 22px; #c5d6db
+    text-decoration: none;
+}
+.aside a{
+    float: left;
+   color:  #444444;
+    width:15 %;
+   
+    text-decoration: none;
+   
+    text-align: center;
+    font : normal;
+/*    background:   #3b7687;*/
+  }
+.aside a:hover{
+    color: #ecf2f3;
+}
+.aside p{ font-size: 24px;
+  
+}
